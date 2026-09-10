@@ -53,7 +53,7 @@ The last thing left to do is to repeat the FEA but with a different Load and dif
 <img width="1289" height="455" alt="Screenshot 2026-09-10 070434" src="https://github.com/user-attachments/assets/e111ece2-0e81-4d52-912b-457bd54693d8" />
 
 ## CAD File Link
-[Download CAD file](assets/files/A3.SLDPRT)
+[Download CAD file](A3.SLDPRT)
 
 
 
