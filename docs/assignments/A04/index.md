@@ -56,7 +56,7 @@ finally, I finished off the model by adding the four mounting screws to feature 
 I had a lot of trouble with using SolidWorks still as I really only have experience with Creo and Revit. The biggest hang-up was trying to figure out how to make a drawing. The assignment all in all took me around 4 hours.
 
 ### CAD Download
-
+[Download CAD file](A4.SLDPRT)
 
 
 
