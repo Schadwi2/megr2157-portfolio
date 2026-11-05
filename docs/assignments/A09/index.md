@@ -16,26 +16,31 @@ I got started by listing out the general details of the assignment so I could or
 
 ## Belt
 The first thing I looked at was the belt, because the shaft, bearing, and frame loads all depend on the belt tensions.
-<img width="3024" height="4032" alt="IMG_2908" src="https://github.com/user-attachments/assets/135f391b-b9c5-4ac2-b65b-b0fa13b7a8ae" />
-<img width="3024" height="4032" alt="IMG_2909" src="https://github.com/user-attachments/assets/af5f5106-f924-47da-ac7c-e8d4215d20bf" />
+<img width="1008" height="1200" alt="IMG_2908" src="https://github.com/user-attachments/assets/135f391b-b9c5-4ac2-b65b-b0fa13b7a8ae" />
+I started with listing my knowns and unknowns when it came to the pulleys and belt size. After that, I moved onto drawing a free body diagram to understand the system.
 
+<img width="1008" height="1200" alt="IMG_2909" src="https://github.com/user-attachments/assets/af5f5106-f924-47da-ac7c-e8d4215d20bf" />
+I finished up sizing the belt by listing out all of my equations and solving for everything unknown symbolically first. this allowed me to quickly plug in messy decimal answers to get a more accurate result. The result of the math made me choose a quarter inch diameter poly urethane belt, with a total belt length of 19.5 inches.
 
 ## Shaft
 The next feature of focus was the shaft, which is 1060 hardened steel.
 
-<img width="3024" height="4032" alt="IMG_2910" src="https://github.com/user-attachments/assets/4fd57b0f-f559-469b-bac7-f9d9c38f7057" />
-
+<img width="1008" height="1200" alt="IMG_2910" src="https://github.com/user-attachments/assets/4fd57b0f-f559-469b-bac7-f9d9c38f7057" />
+I began sizing the shaft in a similar manner to the Belt. i listed knowns and unknowns and drew the problem with a free body diagram.
+<img width="1008" height="1200" alt="IMG_2911" src="https://github.com/user-attachments/assets/dc37221c-04a4-46f3-83d1-026d1c8d30dd" />
+After drawing the free body diagram, i solved for the minimum diameter and shear force symbolically and then plugged in my values to get my minimum diameter. I ended up choosing a 1/4 inch diameter shaft to match commonly supplied shaft sizes.
 
 ## Journal Bearing
-
-<img width="3024" height="4032" alt="IMG_2912" src="https://github.com/user-attachments/assets/6cebf1fe-ca93-434a-93d6-1aa06932c5e9" />
-
+The work flow is the exact same for the journal bearing, except I had to pit the calculated data against a chart to pick a material for my bearing. after getting my numbers, i landed on choosing porous bronze as the bearing material.
+<img width="1008" height="1200" alt="IMG_2912" src="https://github.com/user-attachments/assets/6cebf1fe-ca93-434a-93d6-1aa06932c5e9" />
+<img width="687" height="471" alt="Screenshot 2026-11-05 074423" src="https://github.com/user-attachments/assets/bf9691ab-cff7-4aa6-88a0-c9acbe5e0a76" />
+Bearing material chart
 ## Frame
 The last component to design was the frame that holds the pulley system.
 
-<img width="3024" height="4032" alt="IMG_2913" src="https://github.com/user-attachments/assets/4ef17637-51bd-46b2-9ef6-a3757a18e03c" />
+<img width="1008" height="1200" alt="IMG_2913" src="https://github.com/user-attachments/assets/4ef17637-51bd-46b2-9ef6-a3757a18e03c" />
 ### Hand Calculation
-The frame has to hold the two shafts exactly 5 in apart against the belt, which pulls them toward each other. I used two identical 6061-T6 aluminum bars like the Appendix A concept, one on each side of the pulleys, with a bearing pressed into each hole. Each bar is loaded in compression, and to be conservative I assumed one bar carries the full 8 lbf. The bar is 0.75 in wide and 0.25 in thick with 0.375 in holes. Net-section stress, hole bearing stress, and tear-out stress each came to about 85 psi, and Euler buckling as a pinned column gives a critical load of about 3,855 lbf. A fixed 5 in center distance cannot adjust belt tension, so I [[kept it fixed and let the belt length set the tension / added a slotted hole]].
+The frame has to hold the two shafts exactly 5 in apart against the belt, which pulls them toward each other. I used two identical 6061-T6 aluminum bars like the Appendix A concept, one on each side of the pulleys, with a bearing pressed into each hole. Each bar is loaded in compression, and to be conservative I assumed one bar carries the full 8 lbf. The bar is 0.75 in wide and 0.25 in thick with 0.375 in holes. Net-section stress, hole bearing stress, and tear-out stress each came to about 85 psi, and Euler buckling as a pinned column gives a critical load of about 3,855 lbf. A fixed 5 in center distance cannot adjust belt tension, so I kept it fixed and let the belt length set the tension
 
 
 
