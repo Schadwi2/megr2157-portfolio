@@ -10,7 +10,7 @@ For this assignment, my chosen values were 1500 rpm, 4 lbf, a center distance of
 
 The problem does not give a friction coefficient, so I assumed μ = 0.5 for polyurethane on metal and tested other values in the Belt section.
 
-picture 1
+<img width="800" height="600" alt="unnamed (2)" src="https://github.com/user-attachments/assets/125177c8-31df-4129-a370-4fa57897c6e8" />
 
 I got started by listing out the general details of the assignment so I could organize myself.
 
@@ -34,6 +34,7 @@ After drawing the free body diagram, i solved for the minimum diameter and shear
 The work flow is the exact same for the journal bearing, except I had to pit the calculated data against a chart to pick a material for my bearing. after getting my numbers, i landed on choosing porous bronze as the bearing material.
 <img width="1008" height="1200" alt="IMG_2912" src="https://github.com/user-attachments/assets/6cebf1fe-ca93-434a-93d6-1aa06932c5e9" />
 <img width="687" height="471" alt="Screenshot 2026-11-05 074423" src="https://github.com/user-attachments/assets/bf9691ab-cff7-4aa6-88a0-c9acbe5e0a76" />
+
 Bearing material chart
 ## Frame
 The last component to design was the frame that holds the pulley system.
@@ -45,16 +46,4 @@ The frame has to hold the two shafts exactly 5 in apart against the belt, which 
 
 
 ## Communicate
-[[Write 3 to 5 sentences on what you took away from this assignment, in your own words and with specifics. Avoid the words "good," "bad," "easy," and "hard."]]
-
-I compared my hand calculations to the CAD model. My calculated belt path length was 19.42 in and the path in the CAD model was [[X in]], a difference of [[Y%]]. [[Explain any difference.]]
-
-I made the following mistake: [[describe a real mistake: what you did, how you noticed, how you fixed it, and what changed]].
-
-Overall, this assignment took me [[X hours Y minutes]] in total, with about [[Z]] spent on [[calculations / CAD / documentation]].
-
-Lessons learned:
-- I learned that the belt has to be sized on the tight-side tension (6.62 lbf), not the static tension (4 lbf). Sizing on 4 lbf would have allowed a 3/16 in belt, which has a safety factor of 1.96.
-- I learned that a round belt's tension comes from how far it is stretched, so a catalog belt 1/4 in too short would raise the static tension from about 4.4 lbf to about 5.9 lbf and drop the belt safety factor below 3.
-- I learned that a bearing can be far below its pressure limit and still fail: acetal allows 1,000 psi and my load is 67 psi, yet it failed because pressure times speed (6,550) exceeded its PV rating of 3,000.
-- I learned that an unspecified friction coefficient should be bounded rather than guessed once, because varying μ from 0.3 to 1.0 changed the transmitted torque but not the belt or shaft selections.
+the biggest engineering lesson that i learned while working on the project was how to size bearings for a pulley and shaft assembly. It took me longer than it probably should have to figure out the calculations, but I am definitly more confident after struggling through it. All in all, it took me about 4 hours to complete this assignment. this assignment was definitely one of the easier ones, as I was not required to use CAD.
