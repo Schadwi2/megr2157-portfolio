@@ -37,15 +37,18 @@ finally for the leadscrew design, i needed to account for the maximum torque it 
 ### Thread Bending
 
 <img width="451" height="476" alt="Screenshot 2026-11-12 055710" src="https://github.com/user-attachments/assets/196d4c9c-0866-4c0a-bd40-1397370de9f3" />
+
 Using the selection from McMaster as a guide, i made a choice to use 673 bronze as my material. This allowed me to calculate the thread per inch.
 
 ## Nut and Flange Selection
 <img width="782" height="550" alt="Screenshot 2026-11-12 060200" src="https://github.com/user-attachments/assets/a5de40d6-078d-4aaf-8ec9-c0ad935ca637" />
 <img width="765" height="545" alt="Screenshot 2026-11-12 060153" src="https://github.com/user-attachments/assets/2743d2be-6291-46fd-baff-8d89ae158782" />
+
 I found these parts online and made sure they fit the properties outlined by the calculations i made. I have noted the dimensions and the CAD files will be used later in the project.
 ## Crosshead design
 
 <img width="455" height="560" alt="Screenshot 2026-11-12 055715" src="https://github.com/user-attachments/assets/08857639-5685-43be-8d9f-7b98e50a23de" />
+
 In order to properly design the cross head, i needed to find the height. to find the height, i needed to consider both the stress it would experience and the deflection of the crosshead itself. I did calculations for both and it came out that deflection was the limiting factor.
 
 ### Sketch
@@ -54,8 +57,9 @@ In order to properly design the cross head, i needed to find the height. to find
 This is a sketch of the crosshead i designed. it features a top, right, and front view.
 ## Costs
  <img width="990" height="300" alt="Screenshot 2026-11-12 060542" src="https://github.com/user-attachments/assets/166aa3b3-e04d-440e-8980-472656eea408" />
+ 
 This is the total costs for my design, with links attached to where they can be sourced.
- link to file for excel
+
 
 ## CAD
 
