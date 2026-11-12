@@ -83,6 +83,8 @@ This is the total costs for my design, with links attached to where they can be 
 ## Lessons learned
 This assignment was a very long one, and it was personally very difficult for 2 reasons. The first was the fact that I did not have a team for it, when it is intended to be a team assignment. I missed the day teams were assigned and by the time I was concious of the assignment, there was no way of finding a team, so I just did the assignment solo. The second thing that made it very difficult was the CAD heavy portion of the assignment. I struggle severely with CAD software and doing anything precise, so every move in SolidWorks was a wrestle and just added time onto the assignment. Id say total time spent on the assignment is north of 14-15 hours.
 ## Links
-CAD files : [Download CAD file](docs/assignments/A10/A10 Assembly Sean Chadwick.zip)
-Cost Spreadsheet with links : [Download Cost file](docs/assignments/A10/Crosshead Drawing A10 (2).zip)
-Drawing : [Download Drawing file](docs/assignments/A10/sophD A10 Cost.xlsx)
+CAD files : [Download CAD file]([https://github.com/Schadwi2/megr2157-portfolio/blob/main/docs/assignments/A10/Crosshead%20Drawing%20A10%20(2).zip](https://github.com/Schadwi2/megr2157-portfolio/blob/main/docs/assignments/A10/A10%20Assembly%20Sean%20Chadwick.zip))
+
+Cost Spreadsheet with links : [Download Cost file](https://github.com/Schadwi2/megr2157-portfolio/blob/main/docs/assignments/A10/sophD%20A10%20Cost.xlsx)
+
+Drawing : [Download Drawing file]([docs/assignments/A10/sophD A10 Cost.xlsx](https://github.com/Schadwi2/megr2157-portfolio/blob/main/docs/assignments/A10/Crosshead%20Drawing%20A10%20(2).zip))
